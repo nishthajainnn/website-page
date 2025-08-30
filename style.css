@@ -1,5 +1,7 @@
 body{
      font-style: 'Roboto';
+     margin: 0;
+     padding: 0;
 }
 
 .section-one{
@@ -73,4 +75,97 @@ a{
     background-color: #3882F6;
     color: #E5E7E8;
     font-weight: 700;
+}
+/* section-two */
+
+.section-two h1{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.image p{
+    padding: 8px;
+}
+
+.image img{
+    width: 300px;
+    max-width: 500px;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border: 2px solid #3882F6;
+}
+
+/* section-three */
+
+.section-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 120px;
+}
+
+.thor{
+    background-color: #e5e7eb;
+    font-size: 22px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* footer */
+
+.outer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    width: 60%;
+    /* flex: 1; */
+    margin: 36px 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
+
+.left-box h4{
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 24px;
+
+}
+
+.left-box p{
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.right-box button{
+    border: 3px solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 4px 16px;
+    border-radius: 8px;
 }
